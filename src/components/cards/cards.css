@@ -1,0 +1,46 @@
+.cardDiv {
+  height: 120px;
+  width: 99%;
+  display: flex;
+  flex-direction: row;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-right: 2px;
+  border: solid;
+  border-color: white;
+  vertical-align: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.thummbnail {
+    width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-right: 30px;
+  margin-left: 30px;
+  
+}
+
+
+
+.otherInfo{
+    color: #5c5b5a
+}
+.nameField{
+    margin:0px;
+    margin-bottom: 10px;
+}
+
+.imageSection{
+    border-right: 1px solid black;
+}
+.infoSection{
+    margin-left: 50px;    
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    margin-right: 300px;
+}

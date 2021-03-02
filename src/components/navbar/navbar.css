@@ -1,0 +1,82 @@
+p{
+    margin:0px 0px 5px 0px;
+}
+
+/*--------------- header---------------- */
+.navbarDiv {
+background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(121,9,21,1) 50%, rgba(14,1,60,1) 100%);
+background-color: #290149;
+flex:.3;
+  color: white;
+  overflow: auto;
+border-right: solid 1px white;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  text-align: left;
+
+}
+.logoDiv {
+  padding: 10px;
+}
+.logo {
+  height: 16px;
+  width: 16px;
+}
+
+/* ------------------filter section----------- */
+.filters {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.fieldDiv {
+  flex: 1;
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.inputField {
+  width: 90%;
+  height: 30px;
+  border: solid 1px white;
+  background-color: white;
+  color: #26001b;
+}
+.inputField:focus {
+  outline: none;
+}
+.fieldOption {
+  background-color: white;
+  color: #26001b;
+  position: relative;
+}
+
+/* submit button */
+.filterButtonDiv {
+  width: 90%;
+  height: 30px;
+  margin-top: 30px ;
+}
+.filterButton {
+  background-color: green;
+  color: white;
+  border: none;
+  width: 90px;
+  height: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.filterButton:hover {
+  background-color: #297000;
+  cursor: pointer;
+}
+.filterButton:focus {
+  outline: none;
+}
